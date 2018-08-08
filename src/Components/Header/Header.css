@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Nike';
+    src: url('../../Trade\ Gothic\ LT\ Bold.ttf');
+    font-weight: bold;
+  }
+#fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+#navbar{
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+    right: 40px;
+    left: 20px;
+    width: 100%;
+    height: 60px;
+    
+}
+
+#swoosh{
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 21px;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    right: 40px;
+   top: 29px;
+}
+
+#cart{
+    width: 30px;
+    height: 30px;
+}
+
+#search{   
+position: relative;
+display: flex;
+justify-content: flex-end;
+right: 95px;
+bottom: 0px;
+padding-right: 30px;
+border-right: 1px solid grey;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Nike';
+    height: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropcont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+font-family: 'Nike'
+}
+
+.dropcont li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+}
+
+.dropcont li:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropcont {
+    display: block;
+    z-index: 1;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.logButton{
+    margin-top: 7px;
+    margin-right: -105px;
+    color: black;
+}
+.men{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

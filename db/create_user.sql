@@ -1,0 +1,1 @@
+insert into users(name, email, authid, picture, password)

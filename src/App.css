@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Trade Gothic;
+  src: url('./Trade\ Gothic\ LT\ Bold.ttf');
+  font-weight: bold;
+}
+
+.App{
+  font-family: Trade Gothic;
+}

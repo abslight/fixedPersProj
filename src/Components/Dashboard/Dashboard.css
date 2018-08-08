@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Trade Gothic;
+    src: url('../../Trade\ Gothic\ LT\ Bold.ttf');
+    font-weight: bold;
+  }
+
+#main{
+    margin-top: 88px;
+    text-align: center;
+    font-family: Trade Gothic
+}
+#dashVid{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0; 
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+#cont{
+    position: relative;
+}
+#fyg{
+    width: 98.9vw;
+}
+.pic{
+    float: left;
+    min-width: 20%;
+    height: 550px;
+}
+.left{
+margin-left: 1%; 
+} 
+.right{
+    margin-right: 0%;
+}
+
+.mid{
+    margin: 0px 2% 0px 2%;
+    width: 465px;
+}
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+ 
+#attireHead{
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+}
+.content {
+    position: relative;
+    margin-bottom: -15%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.vidContent{
+    position: absolute;
+    bottom: 250px;
+    right:50px;
+    z-index: 1;
+    text-align: right;
+    color: white;
+    /* margin-top: 20px; */
+}
+.vidContent > button {
+    height: 50px;
+    width: auto;
+    color: black;
+    margin-top: 10px;
+}
+#toMen{
+    width: 110px;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+}
+.vidContent > h1{
+    font-size: 60px;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+#carousel{
+    /* height: 65px; */
+    /* width: auto; */
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+    /* padding-bottom: 20px; */
+}
+#parent{
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: center;
+}
+#parent > p{
+    margin-right: 10px;
+}
+#details{
+    margin-top: 1px;
+    font-size: 13px;
+}
+#parent > img{
+    width: 40px;
+    height: 15px;
+    margin-right: 10px;
+}
